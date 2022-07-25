@@ -15,8 +15,8 @@ Github:https://github.com/interestingcn/365E5_subscription
 appName = '365E5_subscription'
 
 # define your application id and secret
-appSecret = ''
-appId = ''
+appSecret = 'NEr8Q~wEZVqg_vCaSWu8gRWaUf-iNtBSQ3bdFc8h'
+appId = ' e3672652-a884-4430-8d0a-c6016759723a'
 
 # Lines 20 to 25 are used to automatically write the secret informations. Do not write any code
 
