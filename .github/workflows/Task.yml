@@ -34,8 +34,8 @@ jobs:
       run: |
         cd ${GITHUB_WORKSPACE}
         cp main.py work.py
-        sed -i "22i ${{ secrets.APP_ID }}" work.py
-        sed -i "23i ${{ secrets.APP_SECRET }}" work.py
+        sed -i "22i ${e3672652-a884-4430-8d0a-c6016759723a}" work.py
+        sed -i "23i ${NEr8Q~wEZVqg_vCaSWu8gRWaUf-iNtBSQ3bdFc8h}" work.py
         echo "======================================="
         echo "任务开始：$(date +"%Y-%m-%d %H:%M")"
         echo "======================================="
@@ -55,7 +55,7 @@ jobs:
     - name: 推送到仓库
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${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}
         branch: ${{ github.ref }}
 
 
